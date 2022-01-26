@@ -198,6 +198,7 @@ class Receive(User):
                                 filename = part.get_filename()
                                 if filename:
                                     folder_name = clean(subject)
+                                    folder_name = time.strftime('%Y%m%d_%H%M%S') if subject == '' else folder_name
                                     folder_name = 'folder/' + folder_name if folder else folder_name
                                     if not os.path.isdir(folder_name):
                                         # make a folder for this email (named after the subject)
