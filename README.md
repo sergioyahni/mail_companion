@@ -1,5 +1,5 @@
 
-# ---- This repository has been deprecated please visit richmail https://github.com/sergioyahni/richmail 
+### ---- This repository has been deprecated please visit richmail https://github.com/sergioyahni/richmail ----
 # mail_companion
 Single class to send plain text, HTML email, and attachments
 
