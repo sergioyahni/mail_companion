@@ -1,6 +1,6 @@
-# mail_companion
-An abstraction that helps to send and receive emails using the smtplib and imaplib modules.
 
+# ---- This repository has been deprecated please visit richmail https://github.com/sergioyahni/richmail 
+# mail_companion
 Single class to send plain text, HTML email, and attachments
 
 Single class to receive emails and attachments. Emails are received as a list to dictionaries. Attachments are saved
